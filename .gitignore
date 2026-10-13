@@ -1,0 +1,23 @@
+# Build & Compile Artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio & IDE Caches
+.vs/
+.vscode/
+*.ide/
+
+# Distribution Packages (Upload to GitHub Releases, do not commit to Git history)
+Distribuzione_*/
+*.zip
+*.log
+
+# Windows System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

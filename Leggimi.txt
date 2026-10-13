@@ -1,0 +1,52 @@
+======================================================================
+   STREAMDISPLAY ASSISTANT v1.0.0
+   Gestore risoluzioni, Windows HDR, Muto Audio e OLED Shield per Streaming
+======================================================================
+
+Grazie per aver scaricato StreamDisplay Assistant!
+Questa utility e' stata progettata per gamer, appassionati di game streaming
+e possessori di display OLED che utilizzano Sunshine, Moonlight, Steam Remote Play,
+Parsec o schermi secondari.
+
+----------------------------------------------------------------------
+CARATTERISTICHE PRINCIPALI
+----------------------------------------------------------------------
+[VERSIONE GRATUITA - FREE TIER]
+- Selezione manuale immediata di profili di risoluzione (16:9, 16:10 per Steam Deck / ROG Ally, 4:3 per iPad Air / Pro / Tablet).
+- Risoluzioni personalizzate manuali con salvataggio nei preferiti.
+- Toggle rapido per attivare / disattivare Windows HDR con un singolo clic.
+- Protezione OLED Blackout (#000000 puro) Multi-Monitor: crea uno scudo a tutto schermo su tutti i monitor per azzerare l'usura dei pixel e prevenire il burn-in mentre trasmetti su un altro dispositivo (premi ESC o fai doppio clic per uscire).
+- Funzionamento discreto nella barra delle notifiche (System Tray) con menu contestuale rapido.
+
+[VERSIONE PRO - SBLOCCO A 4,99 EUR]
+- Background Process Monitor a bassissimo consumo CPU (~0.0% CPU overhead).
+- Rilevamento automatico delle app installate su tutti i dischi di sistema (Sunshine, Steam, Parsec, Moonlight, AnyDesk, RustDesk, TeamViewer, Chiaki, OBS).
+- Automazione Zero-Touch: all'avvio dello streaming, adatta in automatico la risoluzione alla forma dello schermo del dispositivo client (es. 1920x1440 @ 180Hz su iPad Air M2), accende l'HDR, oscura lo schermo OLED e silenzia le casse del PC host.
+- Auto-Muto Audio Host: zittisce in automatico l'audio del PC per non disturbare in stanza mentre giochi su iPad o Steam Deck, e lo ripristina istantaneamente alla disconnessione.
+- Hotkey Globali di Emergenza Windows:
+  * Ctrl + Shift + F12: Ripristino di emergenza alla risoluzione fisica nativa
+  * Ctrl + Shift + F11: Attiva / Disattiva scudo OLED Blackout
+  * Ctrl + Shift + H: Attiva / Disattiva Windows HDR
+  * Ctrl + Shift + M: Muto / Smuto audio PC host
+- Dashboard Analisi & Protezione OLED: traccia le sessioni protette, le ore di schermo salvate e i kWh risparmiati.
+- Licenza memorizzata e protetta con crittografia hardware Windows DPAPI.
+
+----------------------------------------------------------------------
+GUIDA RAPIDA ALL'USO
+----------------------------------------------------------------------
+1. Non richiede installazione: estrai il contenuto dello zip in qualsiasi cartella ed esegui `StreamDisplayAssistant.exe`.
+2. Nella scheda "👑 Automazione Zero-Touch", attiva l'automazione in background e lascia "✨ Rilevamento Automatico dal Client".
+3. Riduci a icona nel System Tray e gioca: il software fara' tutto in totale autonomia.
+
+----------------------------------------------------------------------
+SICUREZZA E PRIVACY (100% NATIVO)
+----------------------------------------------------------------------
+- 100% Codice proprietario nativo C# .NET 8 e API ufficiali Win32 / Windows Core Audio.
+- Zero dipendenze open-source o driver di terze parti invasivi.
+- Nessuna raccolta dati o telemetria nascosta.
+- Compatibile al 100% con Windows WHQL e giochi competitivi con Anti-Cheat (Vanguard, EasyAntiCheat, BattlEye).
+
+Per supporto, aggiornamenti e licenze:
+Link Prodotto Gumroad: https://gumroad.com
+
+StreamDisplay Assistant (c) 2026. Tutti i diritti riservati.

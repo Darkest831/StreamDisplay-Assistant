@@ -1,0 +1,82 @@
+<Window x:Class="StreamDisplayAssistant.Views.OledBlackoutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OLED Blackout Shield"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="#000000"
+        Topmost="True"
+        ShowInTaskbar="False"
+        WindowState="Normal"
+        Loaded="Window_Loaded"
+        KeyDown="Window_KeyDown"
+        MouseDown="Window_MouseDown"
+        Cursor="Arrow">
+    <Grid Background="#000000">
+        <!-- Floating HUD that fades out after 3 seconds -->
+        <Border x:Name="HudBorder"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="#18000000"
+                BorderBrush="#33FFFFFF"
+                BorderThickness="1"
+                CornerRadius="16"
+                Padding="32,24"
+                Opacity="1">
+            <Border.Style>
+                <Style TargetType="Border">
+                    <Style.Triggers>
+                        <EventTrigger RoutedEvent="Loaded">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                                                     From="1" To="0"
+                                                     BeginTime="0:0:3"
+                                                     Duration="0:0:1"
+                                                     FillBehavior="HoldEnd"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Border.Style>
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="🛡️ OLED Blackout Shield Active"
+                           Foreground="#10B981"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,10"/>
+                
+                <TextBlock Text="OLED subpixels are physically turned off (#000000 pure black)."
+                           Foreground="#94A3B8"
+                           FontSize="15"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,6"/>
+
+                <TextBlock Text="Game streaming session is running on your remote device."
+                           Foreground="#64748B"
+                           FontSize="13"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <Button Content="Exit Blackout (or press ESC)"
+                        Background="#2563EB"
+                        Foreground="#FFFFFF"
+                        FontSize="14"
+                        FontWeight="SemiBold"
+                        Padding="24,10"
+                        Cursor="Hand"
+                        Click="CloseButton_Click"
+                        HorizontalAlignment="Center">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
