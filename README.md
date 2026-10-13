@@ -52,7 +52,7 @@ StreamDisplay Assistant is built on a **fair, transparent model**: all manual to
 
 Support independent software development and unlock zero-touch streaming automation for all your devices:
 
-👉 **[Get StreamDisplay Assistant PRO on Gumroad (€4.99)](https://gumroad.com)** 👈
+👉 **[Get StreamDisplay Assistant PRO on Gumroad (€4.99)]([https://gumroad.com](https://5888573439289.gumroad.com/l/streamdisplay_pro))** 👈
 
 *Instant delivery • Lifetime license valid on up to 3 personal PCs • 100% money-back guarantee*
 
