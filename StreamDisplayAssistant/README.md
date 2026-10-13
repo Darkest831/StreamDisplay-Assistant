@@ -87,10 +87,14 @@ StreamDisplay Assistant includes system-wide hotkeys that work from inside any f
 4. Run `StreamDisplayAssistant.exe`. **No installation or runtime required** — it is a single self-contained executable.
 
 ### Cryptographic Checksum & Verification
-- **File**: `StreamDisplayAssistant.exe` (v1.0.0)
-- **SHA-256**:
+- **File**: `StreamDisplayAssistant.exe` (v1.0.0 Standalone Single-File)
+- **SHA-256 (EXE)**:
   ```text
-  191CD627072BB37ADFFD85C3479A5A9BC6CF99607C95ED98FC683C9880515927
+  3B4F90412FFBD38FBB0FF7C7A74169ECAA58043FFE37D9E4E09A1A865B46044D
+  ```
+- **SHA-256 (ZIP Package)**:
+  ```text
+  D44A25DF446C7C4BF8F94FE99AB8D46940BE0ACA2311589F211875F7BDFEED6A
   ```
 - **VirusTotal Report**: [Verify on VirusTotal](https://www.virustotal.com)
 
